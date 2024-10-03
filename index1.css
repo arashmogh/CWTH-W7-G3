@@ -1,0 +1,31 @@
+.cotainer {
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(186, 185, 182);
+    padding-top: 60px;
+    position: relative;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.heading::after,
+.heading::before {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: 0 30px;
+    position: absolute;
+
+}
+.heading::after{
+    right: 0px;
+    top: 35%;
+}
+.heading::before{
+top:35%
+}
